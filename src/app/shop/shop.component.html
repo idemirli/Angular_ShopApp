@@ -1,0 +1,33 @@
+<navbar></navbar>
+<div class="container pt-100 mb-5">
+    <div class="row">
+            <div class="col-3 mt-3 mb-3">
+
+              <cart-summary></cart-summary>
+
+              <category-list (category)="getCategory($event)"></category-list> 
+             <!-- categoryList içerisinde event tanımlayacağız , tanımlayacağımız event Category-list içinde tanımladığımız eventEmitter türündeki obje olacak.
+             Gelen category event'ini parametre olarak alacağım. (newCategory'e buradan ulaşacağım.) -->
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="alert alert-warning">
+                    {{products.length}} tane ürün bulundu...
+                  </div>
+                </div>
+               
+              </div>
+              <product-list [products]="products"></product-list>
+              <div class="row mt-3">
+                <div class="col">
+                  <div class="btn-group">
+                    <button *ngFor="let item of pageNumbers" (click)="changePage(item)" class="btn btn-outline-primary">{{item}}</button>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+</div>
+

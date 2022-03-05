@@ -1,0 +1,131 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung S8",
+      "price": 1000,
+      "imageUrl": "1.jpg",
+      "description": "Kaliteli",
+      "category": "Telefon"
+    },
+    {
+      "id": 2,
+      "name": "Nokia",
+      "price": 2000,
+      "imageUrl": "2.jpg",
+      "description": "idare eder",
+      "category": "Telefon"
+    },
+    {
+      "id": 3,
+      "name": "Iphone",
+      "price": 3000,
+      "imageUrl": "3.jpg",
+      "description": "Eh..",
+      "category": "Elektronik"
+    },
+    {
+      "id": 4,
+      "name": "Motorola",
+      "price": 4000,
+      "imageUrl": "4.jpg",
+      "description": "Vasat",
+      "category": "Bilgisayar"
+    },
+    {
+      "id": 5,
+      "name": "Huawei",
+      "price": 5000,
+      "imageUrl": "5.jpg",
+      "description": "Güzel",
+      "category": "Telefon"
+    },
+    {
+      "id": 6,
+      "name": "Blackperry",
+      "price": 6000,
+      "imageUrl": "6.jpg",
+      "description": "Normal",
+      "category": "Telefon"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Telefon"
+    },
+    {
+      "id": 2,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 3,
+      "name": "Elektronik"
+    }
+  ],
+  "orders": [
+    {
+      "cart": {
+        "items": [
+          {
+            "product": {
+              "id": 2,
+              "name": "Nokia",
+              "price": 2000,
+              "imageUrl": "2.jpg",
+              "description": "idare eder",
+              "category": "Telefon"
+            },
+            "quantity": 1
+          },
+          {
+            "product": {
+              "id": 3,
+              "name": "Iphone",
+              "price": 3000,
+              "imageUrl": "3.jpg",
+              "description": "Eh..",
+              "category": "Elektronik"
+            },
+            "quantity": 1
+          }
+        ],
+        "itemCount": 2,
+        "total": 5000
+      },
+      "isSent": false,
+      "name": "ibrahim",
+      "address": "konak",
+      "city": "karabağlar",
+      "phone": "12345",
+      "email": "deneme@gmail.com",
+      "id": 1
+    },
+    {
+      "cart": {
+        "items": [
+          {
+            "product": {
+              "id": 2,
+              "name": "Nokia",
+              "price": 2000,
+              "imageUrl": "2.jpg",
+              "description": "idare eder",
+              "category": "Telefon"
+            },
+            "quantity": 1
+          }
+        ],
+        "itemCount": 1,
+        "total": 2000
+      },
+      "isSent": false,
+      "name": "semih demirli",
+      "address": "2987 Sokak",
+      "city": "İzmir",
+      "phone": "05326632247",
+      "email": "semih35121@gmail.com",
+      "id": 2
+    }
+  ]
+}
